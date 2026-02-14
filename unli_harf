@@ -1,0 +1,8 @@
+def my_function(str):
+    star="aouei"
+    a=0
+    for i in str:
+        if i.lower() in star:
+            a+=1
+    return a
+print(my_function("Assalom"))
