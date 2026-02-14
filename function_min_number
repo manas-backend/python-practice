@@ -1,0 +1,7 @@
+def min_(*args):
+    nums=args[0]
+    for i in args:
+        if i<nums:
+            nums=i
+    return nums 
+print(min_(11,2,3,4,5,6))
