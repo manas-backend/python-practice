@@ -1,13 +1,13 @@
 
 
-1-savol:  To‘rt sonning o‘rta arifmetigini toping.
+# 1-savol:  To‘rt sonning o‘rta arifmetigini toping.
 sum=0
 for i in range(4):
     a=int(input(f"{i} - sonni kiriting: "))
     sum+=i
 print(sum/4)
 
-2-savol: 3 xonali sonning eng kichik raqamini aniqlang. 
+# 2-savol: 3 xonali sonning eng kichik raqamini aniqlang. 
 a=int(input("a = "))
 s=a%100//10
 d=a//100
@@ -19,7 +19,7 @@ elif d<s and d<f or s==f:
 else:
     print("kichik son ", f)
 
-3-savol: Bahoga qarab so‘zli ta’rif chiqaring (“A’lo”, “Yaxshi”, “Qoniqarli”, “Yomon”).
+# 3-savol: Bahoga qarab so‘zli ta’rif chiqaring (“A’lo”, “Yaxshi”, “Qoniqarli”, “Yomon”).
 a=int(input("Bahoni kiriting: "))
 match a:
     case 0:print("Yomon")
@@ -30,21 +30,21 @@ match a:
     case 5:print("A'lo")
     case _:print("Qanaqa baxo oldiz ozi !!!")
 
-4-savol: 1 dan 1000 gacha bo‘lgan 12 ga bo‘linadigan sonlarni chiqaring.
+# 4-savol: 1 dan 1000 gacha bo‘lgan 12 ga bo‘linadigan sonlarni chiqaring.
 
 for i in range(1,1001):
     if i%12==0:
         print(i, end=" ")
 
 
-5-savol: Satrdagi kichik harflarni ekranga chiqaring.
+# 5-savol: Satrdagi kichik harflarni ekranga chiqaring.
 a=input("Satrni kiriting: ")
 for i in a:
     if i.islower():
         print(i, end=" ")
 
 
-6-savol: Raqamlar soni harflardan kam bo‘lsa “ok”, aks holda “error”.
+# 6-savol: Raqamlar soni harflardan kam bo‘lsa “ok”, aks holda “error”.
 s=input("Satr kiriting: ")
 harf = 0
 raqam = 0
