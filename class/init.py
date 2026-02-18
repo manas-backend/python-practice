@@ -10,7 +10,7 @@ student1=Student("John", "Doe", 20)
 student2=Student("Salim", "Smith", 22)
 
 print(student1.first_name) 
-# print(student2.second_name) 
+print(student2.second_name) n 
 # 1.
 
 
@@ -26,7 +26,7 @@ car1=Car("Toyota", 2020, "Red", 120)
 car2=Car("Honda", 2019, "Blue", 110)
 
 print(car1.model,car1.year,car1.color,car1.speed)
-# print(car2.model,car2.year,car2.color,car2.speed)
+print(car2.model,car2.year,car2.color,car2.speed)
 # 3.
 class Person:
     
