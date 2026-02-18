@@ -10,7 +10,7 @@ student1=Student("John", "Doe", 20)
 student2=Student("Salim", "Smith", 22)
 
 print(student1.first_name) 
-print(student2.second_name) n 
+print(student2.second_name) 
 # 1.
 
 
