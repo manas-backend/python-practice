@@ -4,7 +4,7 @@ words = ["salom", "dunyo", "python"]
 
 result = list(map(lambda x: x.upper(), words))
 
-print(result)s
+print(result)
 # 2.
 numbers = [1, 2, 3, 4, 5]
 
