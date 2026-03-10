@@ -165,4 +165,37 @@ print(w1)
 print(q1==w1)
 
 
+# 14.
+
+class BankAccount:
+    
+    bank_name="TBC"
+    
+    def __init__(self,owner,balance):
+        self.owner=owner
+        self.balance=balance
+        
+    def __str__(self):
+        return f"Owner: {self.owner}, Balance: {self.balance}"
+    
+    def __add__(self,other):
+        return self.balance + other.balance
+    
+    @classmethod
+    
+    def change_bank_name(cls,new_name):
+        cls.bank_name=new_name
+        
+bank1=BankAccount("Ali",1000)
+bank2=BankAccount("Vali",2000)
+
+print(bank1)
+
+print(BankAccount.bank_name)
+new_name="Aloqa Bank"
+
+BankAccount.change_bank_name(new_name)
+print(BankAccount.bank_name)
+
+
 

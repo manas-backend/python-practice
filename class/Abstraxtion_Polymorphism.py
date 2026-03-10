@@ -51,3 +51,5 @@ class Car(Transport):
 
     def stop(self):
         print(f"{self.brand} has stopped.")
+        
+# 2.
